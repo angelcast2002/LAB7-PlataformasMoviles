@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LAB7</string>
+    <string name="text_laboratorio_7">Laboratorio 7</string>
+    <string name="text_button_iniciarSesion_loginFragment">Iniciar sesión</string>
+    <string name="text_nuevoUsuario">¿Nuevo usuario? ¡Crea tu cuenta aquí!</string>
+    <string name="text_button_loginFragment">Ingresa tu correo</string>
+    <string name="text_button_actualizarPerfil">Actualizar perfil</string>
+    <string name="text_buenosDias_homeFragment">¡Buenos días!</string>
+</resources>

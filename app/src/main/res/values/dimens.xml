@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="size_cerodp">0dp</dimen>
+    <dimen name="size_titleLab7_loginFragment">25sp</dimen>
+    <dimen name="marginHorizontal_loginFragment">10dp</dimen>
+    <dimen name="marginTop_homeFragment">5dp</dimen>
+    <dimen name="marginH_button_homeFragment">60dp</dimen>
+</resources>

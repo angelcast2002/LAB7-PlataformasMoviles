@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/text_buenosDias_title_homeFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_buenosDias_homeFragment"
+        app:layout_constraintVertical_chainStyle="packed"
+        android:textSize="@dimen/size_titleLab7_loginFragment"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/text_mail_homeFragment"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:layout_marginTop="@dimen/marginTop_homeFragment"
+        android:id="@+id/text_mail_homeFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Hola CORREO, necesitamos que \n actualice su perfil!"
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@+id/text_buenosDias_title_homeFragment"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/button_actualizarPerfil_homeFragment"
+        />
+
+    <Button
+        android:layout_marginTop="@dimen/marginTop_homeFragment"
+        android:id="@+id/button_actualizarPerfil_homeFragment"
+        app:layout_constraintTop_toBottomOf="@+id/text_mail_homeFragment"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="@dimen/size_cerodp"
+        android:layout_marginHorizontal="@dimen/marginH_button_homeFragment"
+        android:layout_height="wrap_content"
+        android:text="@string/text_button_actualizarPerfil"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:background="@android:color/holo_orange_dark"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
