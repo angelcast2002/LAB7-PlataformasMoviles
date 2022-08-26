@@ -6,4 +6,8 @@
     <string name="text_button_loginFragment">Ingresa tu correo</string>
     <string name="text_button_actualizarPerfil">Actualizar perfil</string>
     <string name="text_buenosDias_homeFragment">¡Buenos días!</string>
+    <string name="text_miPerfil_perfilFragment">Mi perfil</string>
+    <string name="text_buttonActualizar_perfilFragment">Actualizar</string>
+    <string name="text_nuevaCuenta_nuevaCuentaFragment">Nueva cuenta</string>
+    <string name="textBt_crearCuenta_nuevaCuentaFragment">Crear cuenta</string>
 </resources>

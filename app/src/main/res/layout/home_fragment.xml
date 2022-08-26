@@ -4,7 +4,8 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="@color/white">
+    android:background="@color/white"
+    tools:context=".HomeFragment">
 
     <TextView
         android:id="@+id/text_buenosDias_title_homeFragment"
@@ -12,7 +13,7 @@
         android:layout_height="wrap_content"
         android:text="@string/text_buenosDias_homeFragment"
         app:layout_constraintVertical_chainStyle="packed"
-        android:textSize="@dimen/size_titleLab7_loginFragment"
+        android:textSize="@dimen/size_titleLab7_allFragment"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@id/text_mail_homeFragment"
         android:textColor="@color/black"

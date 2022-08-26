@@ -3,6 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Plataformas/LABs/LAB7-PlataformasMoviles/app/src/main/res/drawable/bc_circle.xml" value="0.309" />
+        <entry key="..\:/Plataformas/LABs/LAB7-PlataformasMoviles/app/src/main/res/layout/activity_main.xml" value="0.1940222897669706" />
+        <entry key="..\:/Plataformas/LABs/LAB7-PlataformasMoviles/app/src/main/res/layout/home_fragment.xml" value="0.1945288753799392" />
+        <entry key="..\:/Plataformas/LABs/LAB7-PlataformasMoviles/app/src/main/res/layout/login_fragment.xml" value="0.25" />
+        <entry key="..\:/Plataformas/LABs/LAB7-PlataformasMoviles/app/src/main/res/layout/nueva_cuenta_fragment.xml" value="0.39384615384615385" />
+        <entry key="..\:/Plataformas/LABs/LAB7-PlataformasMoviles/app/src/main/res/layout/perfil_fragment.xml" value="0.4" />
         <entry key="app/src/main/res/drawable/rounded_back_button.xml" value="0.343" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.3411458333333333" />
         <entry key="app/src/main/res/layout/home_fragment.xml" value="0.3546875" />

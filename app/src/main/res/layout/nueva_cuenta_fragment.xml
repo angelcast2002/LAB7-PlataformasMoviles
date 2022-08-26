@@ -4,67 +4,57 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".LoginFragment">
+    android:background="@color/white"
+    tools:context=".NuevaCuentaFragment">
+
 
     <TextView
-        android:textColor="@color/black"
-        android:id="@+id/text_lab7_title"
+        android:id="@+id/text_nuevaCuenta_nuevaCuentaFragment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/text_laboratorio_7"
-        android:textSize="@dimen/size_titleLab7_allFragment"
+        android:text="@string/text_nuevaCuenta_nuevaCuentaFragment"
         android:textStyle="bold"
+        android:textSize="@dimen/size_titleLab7_allFragment"
+        android:textColor="@color/black"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toTopOf="@+id/textInput_loginFragment"
-        app:layout_constraintVertical_chainStyle="packed"
-        />
+        android:layout_marginTop="@dimen/margin_bottomAndTop_allFragment"/>
 
     <com.google.android.material.textfield.TextInputLayout
+
         android:layout_marginHorizontal="@dimen/marginHorizontal_allFragment"
-        android:id="@+id/textInput_loginFragment"
+        android:id="@+id/textInput_ingresaCorreo_nuevaCuentaFragment"
         android:layout_width="@dimen/size_cerodp"
         android:layout_height="wrap_content"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/button_crearCuenta_nuevaCuentaFragment"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_lab7_title"
-        app:layout_constraintBottom_toTopOf="@+id/button_nuevoUsuario_loginFragment"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"
         android:hint="@string/text_button_loginFragment"
         >
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            />
 
+            />
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:id="@+id/button_nuevoUsuario_loginFragment"
-        android:background="@android:color/transparent"
-        app:layout_constraintTop_toBottomOf="@id/textInput_loginFragment"
-        app:layout_constraintStart_toStartOf="@id/textInput_loginFragment"
-        app:layout_constraintBottom_toTopOf="@id/button_iniciarSesion_loginfragment"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textColor="@android:color/holo_blue_bright"
-        android:textAllCaps="false"
-        android:text="@string/text_nuevoUsuario"
-        />
-
-    <Button
-        android:textColor="@color/white"
-        android:textAllCaps="false"
-        android:background="@drawable/rounded_back_button"
-        android:id="@+id/button_iniciarSesion_loginfragment"
+        android:id="@+id/button_crearCuenta_nuevaCuentaFragment"
         android:layout_width="@dimen/size_cerodp"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/button_nuevoUsuario_loginFragment"
+        android:text="@string/textBt_crearCuenta_nuevaCuentaFragment"
+        android:textColor="@color/white"
+        android:background="@drawable/rounded_back_button"
+        android:layout_marginHorizontal="@dimen/marginHorizontal_allFragment"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginHorizontal="@dimen/marginHorizontal_allFragment"
-        android:text="@string/text_button_iniciarSesion_loginFragment"/>
+        app:layout_constraintTop_toBottomOf="@+id/textInput_ingresaCorreo_nuevaCuentaFragment"
+        android:textAllCaps="false"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
