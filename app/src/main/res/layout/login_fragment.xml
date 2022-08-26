@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".LoginFragment">
+    tools:context=".LoginFragment"
+    android:background="@color/white">
 
     <TextView
         android:textColor="@color/black"
@@ -31,6 +32,7 @@
         app:layout_constraintTop_toBottomOf="@+id/text_lab7_title"
         app:layout_constraintBottom_toTopOf="@+id/button_nuevoUsuario_loginFragment"
         android:hint="@string/text_button_loginFragment"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         >
 
         <com.google.android.material.textfield.TextInputEditText
@@ -56,7 +58,7 @@
     <Button
         android:textColor="@color/white"
         android:textAllCaps="false"
-        android:background="@drawable/rounded_back_button"
+        app:backgroundTint="@android:color/holo_orange_dark"
         android:id="@+id/button_iniciarSesion_loginfragment"
         android:layout_width="@dimen/size_cerodp"
         android:layout_height="wrap_content"

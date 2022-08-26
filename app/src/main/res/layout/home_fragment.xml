@@ -47,7 +47,7 @@
         android:text="@string/text_button_actualizarPerfil"
         android:textAllCaps="false"
         android:textColor="@color/white"
-        android:background="@android:color/holo_orange_dark"
+        app:backgroundTint="@android:color/holo_orange_dark"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

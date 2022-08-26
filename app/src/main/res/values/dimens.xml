@@ -9,4 +9,5 @@
     <dimen name="margin_verticalInterno_perfilFragment">25dp</dimen>
     <dimen name="padding_camera_perfilFragment">20dp</dimen>
     <dimen name="size_redius_bcCircle">300dp</dimen>
+    <dimen name="marginInterno_nuevaCuentaFragment">10dp</dimen>
 </resources>

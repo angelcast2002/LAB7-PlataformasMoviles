@@ -48,6 +48,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/imageView_fotoPerfil_perfilFragment"
         android:hint="@string/text_button_loginFragment"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         >
 
         <com.google.android.material.textfield.TextInputEditText
@@ -63,7 +64,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:background="@drawable/rounded_back_button"
+        app:backgroundTint="@android:color/holo_orange_dark"
         android:layout_marginHorizontal="@dimen/marginHorizontal_allFragment"
         android:layout_marginBottom="@dimen/margin_bottomAndTop_allFragment"
         android:text="@string/text_buttonActualizar_perfilFragment"
