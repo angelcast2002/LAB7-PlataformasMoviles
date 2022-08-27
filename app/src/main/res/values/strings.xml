@@ -10,4 +10,7 @@
     <string name="text_buttonActualizar_perfilFragment">Actualizar</string>
     <string name="text_nuevaCuenta_nuevaCuentaFragment">Nueva cuenta</string>
     <string name="textBt_crearCuenta_nuevaCuentaFragment">Crear cuenta</string>
+    <string name="mensage_central_homeFragment">Hola %s, necesitamos que actualices tu perfil!</string>
+    <string name="textToast">El correo ingresado no existe, por favor inténtelo de nuevo.</string>
+    <string name="correoCorrecto">jcdurini@uvg.edu.gt</string>
 </resources>

@@ -3,7 +3,7 @@
     <dimen name="size_cerodp">0dp</dimen>
     <dimen name="size_titleLab7_allFragment">25sp</dimen>
     <dimen name="marginHorizontal_allFragment">20dp</dimen>
-    <dimen name="marginTop_homeFragment">5dp</dimen>
+    <dimen name="marginTopAndHorizontal_homeFragment">5dp</dimen>
     <dimen name="marginH_button_homeFragment">60dp</dimen>
     <dimen name="margin_bottomAndTop_allFragment">35dp</dimen>
     <dimen name="margin_verticalInterno_perfilFragment">25dp</dimen>

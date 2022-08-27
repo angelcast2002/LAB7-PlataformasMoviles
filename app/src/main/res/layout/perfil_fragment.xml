@@ -47,11 +47,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/imageView_fotoPerfil_perfilFragment"
-        android:hint="@string/text_button_loginFragment"
+        tools:hint="@string/text_button_loginFragment"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:startIconDrawable="@drawable/ic_arroba_text_imput_layout"
         >
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/textInput_actualizar_perfilFragment_editText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             />
@@ -59,6 +61,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
+        android:id="@+id/button_actualizar_perfilFragment"
         android:layout_width="@dimen/size_cerodp"
         android:layout_height="wrap_content"
         app:layout_constraintStart_toStartOf="parent"

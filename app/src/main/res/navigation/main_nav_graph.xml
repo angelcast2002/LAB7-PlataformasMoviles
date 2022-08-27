@@ -11,11 +11,49 @@
         tools:layout="@layout/login_fragment" >
         <action
             android:id="@+id/action_loginFragment_to_homeFragment"
-            app:destination="@id/homeFragment" />
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true"
+            />
+        <action
+            android:id="@+id/action_loginFragment_to_nuevaCuentaFragment"
+            app:destination="@id/nuevaCuentaFragment" />
     </fragment>
     <fragment
         android:id="@+id/homeFragment"
         android:name="com.example.lab7.HomeFragment"
         android:label="home_fragment"
-        tools:layout="@layout/home_fragment" />
+        tools:layout="@layout/home_fragment" >
+        <action
+            android:id="@+id/action_homeFragment_to_perfilFragment"
+            app:destination="@id/perfilFragment" />
+        <argument
+            android:name="email"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/perfilFragment"
+        android:name="com.example.lab7.PerfilFragment"
+        android:label="perfil_fragment"
+        tools:layout="@layout/perfil_fragment" >
+        <action
+            android:id="@+id/action_perfilFragment_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/homeFragment"
+            app:popUpToInclusive="true"/>
+        <argument
+            android:name="email"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/nuevaCuentaFragment"
+        android:name="com.example.lab7.NuevaCuentaFragment"
+        android:label="nueva_cuenta_fragment"
+        tools:layout="@layout/nueva_cuenta_fragment" >
+        <action
+            android:id="@+id/action_nuevaCuentaFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true"/>
+    </fragment>
 </navigation>
