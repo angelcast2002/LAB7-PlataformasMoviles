@@ -34,10 +34,13 @@
         app:layout_constraintVertical_chainStyle="packed"
         android:hint="@string/text_button_loginFragment"
         android:layout_marginBottom="@dimen/marginInterno_nuevaCuentaFragment"
+        app:boxStrokeColor="@color/black"
+        android:textColorHint="@color/black"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         >
 
         <com.google.android.material.textfield.TextInputEditText
+            android:textColor="@color/black"
             android:id="@+id/textInput_ingresaCorreo_nuevaCuentaFragment_editText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

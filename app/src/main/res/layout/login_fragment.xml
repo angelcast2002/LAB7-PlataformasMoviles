@@ -32,10 +32,13 @@
         app:layout_constraintTop_toBottomOf="@+id/text_lab7_title"
         app:layout_constraintBottom_toTopOf="@+id/button_nuevoUsuario_loginFragment"
         android:hint="@string/text_button_loginFragment"
+        app:boxStrokeColor="@color/black"
+        android:textColorHint="@color/black"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         >
 
         <com.google.android.material.textfield.TextInputEditText
+            android:textColor="@color/black"
             android:id="@+id/textInput_loginFragment_editText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -53,6 +56,7 @@
         android:layout_height="wrap_content"
         android:textColor="@android:color/holo_blue_bright"
         android:textAllCaps="false"
+        android:paddingStart="@dimen/size_cerodp"
         android:text="@string/text_nuevoUsuario"
         />
 

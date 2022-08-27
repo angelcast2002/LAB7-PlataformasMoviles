@@ -49,10 +49,14 @@
         app:layout_constraintTop_toBottomOf="@id/imageView_fotoPerfil_perfilFragment"
         tools:hint="@string/text_button_loginFragment"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:boxStrokeColor="@color/black"
+        android:textColorHint="@color/black"
+        app:startIconTint="@color/black"
         app:startIconDrawable="@drawable/ic_arroba_text_imput_layout"
         >
 
         <com.google.android.material.textfield.TextInputEditText
+            android:textColor="@color/black"
             android:id="@+id/textInput_actualizar_perfilFragment_editText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
